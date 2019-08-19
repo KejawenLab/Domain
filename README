@@ -1,3 +1,15 @@
 # Domain
 
 Kumpulan Domain Object untuk DDD atau CQRS (Ref: https://speakerdeck.com/cassell/introduction-to-domain-driven-design-in-php-zendcon-and-openenterprise-2018)
+
+
+Domain Driven Development (DDD) adalah cara menyelesaikan masalah yang tidak berfikir tentang bagaimana bentuk tablenya, bagaimana design databasenya dan sejenisnya
+
+
+Domain Driven Development (DDD) lebih berfikir lebih natural mendekati bahasa manusia sehingga lebih mudah memetakan keperluan user dan sangat fleksibel terhadap perubahan
+
+
+Namun untuk mencapai goal dari DDD, memang tidak mudah, dan DDD bukahlah RAD yang lebih berfikir bagaimana cepat menyelesaikan suatu task tapi lebih bagaimana menyelesaikan masalah dengan lebih mudah
+
+
+Software yang dibangun dengan DDD lebih mudah ditest, lebih mudah dikembangkan (scaling) dan mudah dimaintain
