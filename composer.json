@@ -1,0 +1,28 @@
+{
+    "name": "kejawenlab/domain",
+    "type": "project",
+    "description": "Kejawen Lab Domain Classes Collection",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.3"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "KejawenLab\\Domain\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KejawenLab\\Domain\\Tests\\": "tests/"
+        }
+    }
+}
