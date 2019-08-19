@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace KejawenLab\Domain\Name;
+namespace KejawenLab\Domain\Address;
 
 use Assert\Assertion;
 
 /**
  * @author Muhamad Surya Iksanudin <surya.iksanudin@gmail.com>
  */
-class FirstName
+class StreetName
 {
     private $value;
 
-    public function __construct(string $firstName)
+    public function __construct(string $streetName)
     {
-        Assertion::notEmpty($firstName);
+        Assertion::notEmpty($streetName);
 
-        $this->value = $firstName;
+        $this->value = $streetName;
     }
 
     public function getValue(): string
